@@ -1,0 +1,6 @@
+{
+  "name": "CS Student Portfolio",
+  "description": "An aesthetic, responsive, and highly polished portfolio website for a computer science student, featuring detailed project cards, categorized skills, an elegant interactive resume, an about section, and a custom functional contact form.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
