@@ -27,14 +27,19 @@ export default function About() {
           
           {/* Column 1: Bio and Academic Profile */}
           <div className="lg:col-span-5 space-y-8">
-            <div>
-              <div className="flex items-center space-x-2 text-accent-primary mb-2">
-                <GraduationCap className="w-5 h-5" />
-                <span className="text-xs uppercase tracking-widest font-mono font-semibold">About Me</span>
+            <div className="flex flex-col items-start gap-6 sm:flex-row sm:items-center">
+              <div className="relative w-24 h-24 sm:w-32 sm:h-32 rounded-full overflow-hidden aesthetic-frame shrink-0">
+               
               </div>
-              <h2 className="text-3xl md:text-4xl font-display font-semibold tracking-tight text-brand-charcoal">
-                The Academic Narrative
-              </h2>
+              <div>
+                <div className="flex items-center space-x-2 text-accent-primary mb-2">
+                  <GraduationCap className="w-5 h-5" />
+                  <span className="text-xs uppercase tracking-widest font-mono font-semibold">About Me</span>
+                </div>
+                <h2 className="text-3xl md:text-4xl font-display font-semibold tracking-tight text-brand-charcoal">
+                  The Academic Narrative
+                </h2>
+              </div>
             </div>
 
             <p className="text-sm md:text-base text-brand-muted leading-relaxed font-sans">

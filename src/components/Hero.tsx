@@ -14,8 +14,14 @@ export default function Hero({ onNavClick }: HeroProps) {
     >
       <div className="absolute inset-0 bg-brand-cream/95 z-0" />
       {/* Decorative subtle visual markers (geometric/grid alignments, no AI slop) */}
-      <div className="absolute inset-0 pointer-events-none opacity-20 z-0 flex items-center justify-center">
-        <ShieldAlert className="w-[800px] h-[800px] text-accent-primary opacity-10" />
+      <div className="absolute inset-0 pointer-events-none z-0">
+        <img 
+          src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=2000&q=80" 
+          alt="Abstract technology background" 
+          className="w-full h-full object-cover opacity-15"
+          referrerPolicy="no-referrer"
+        />
+        <div className="absolute inset-0 bg-brand-cream/60 mix-blend-multiply" />
       </div>
 
       <div className="max-w-4xl mx-auto px-6 text-center z-10">
